@@ -1,0 +1,15 @@
+Z:\Documents\GitHub\BnSLauncher\BnSLauncher\bin\Debug\BnSLauncher.exe.config
+Z:\Documents\GitHub\BnSLauncher\bin\Debug\BnSLauncher.exe.config
+Z:\Documents\GitHub\BnSLauncher\bin\Debug\BnSLauncher.exe
+Z:\Documents\GitHub\BnSLauncher\bin\Debug\BnSLauncher.pdb
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.csprojResolveAssemblyReference.cache
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\MainWindow.g.cs
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\App.g.cs
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher_MarkupCompile.cache
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher_MarkupCompile.lref
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\MainWindow.baml
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.g.resources
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.Properties.Resources.resources
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.csproj.GenerateResource.Cache
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.exe
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.pdb
