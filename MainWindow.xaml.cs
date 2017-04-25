@@ -47,7 +47,6 @@ namespace BnSLauncher
 		// Minimize window
 		private void Minimize_Button_MouseDown(object sender, MouseButtonEventArgs e)
 		{
-			WindowStyle = WindowStyle.SingleBorderWindow;
 			WindowState = WindowState.Minimized;
 		}
 	}
