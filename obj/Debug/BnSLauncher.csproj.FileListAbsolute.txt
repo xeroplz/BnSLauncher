@@ -13,3 +13,4 @@ Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.Properties.Resources.resou
 Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.csproj.GenerateResource.Cache
 Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.exe
 Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.pdb
+Z:\Documents\GitHub\BnSLauncher\obj\Debug\BnSLauncher.csproj.CoreCompileInputs.cache

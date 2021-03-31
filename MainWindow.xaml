@@ -34,18 +34,81 @@
         </Image>
 
         <!-- Header Icons -->
-        <Image x:Name="Close_Button" Source="./Resources/close.png" RenderTransformOrigin="0.5,0.5" Margin="915,10,10,495" Cursor="Hand" MouseDown="Close_Button_MouseDown">
+        <Image x:Name="Close_Button" Source="./Resources/close.png" RenderTransformOrigin="0.5,0.5" Margin="930,10,10,510" Cursor="Hand" MouseDown="Close_Button_MouseDown">
             <Image.Effect>
                 <DropShadowEffect ShadowDepth="2"/>
             </Image.Effect>
         </Image>
-        <Image x:Name="Minimize_Button" Source="./Resources/minus.png" RenderTransformOrigin="0.5,0.5" Margin="860,10,65,495" Cursor="Hand" MouseDown="Minimize_Button_MouseDown">
+        <Image x:Name="Minimize_Button" Source="./Resources/minus.png" RenderTransformOrigin="0.5,0.5" Margin="890,10,50,510" Cursor="Hand" MouseDown="Minimize_Button_MouseDown">
             <Image.Effect>
                 <DropShadowEffect ShadowDepth="2"/>
             </Image.Effect>
         </Image>
 
         <!-- Body -->
-        <Rectangle Fill="#FF252526" HorizontalAlignment="Left" Height="410" Margin="15,125,0,0" VerticalAlignment="Top" Width="940"/>
+        <Rectangle Fill="#000000" Margin="20,100,20,20" Opacity="0.805"/>
+
+        <Label x:Name="Options_Launch_Button" Content="Options/Launch" HorizontalAlignment="Left" Margin="20,64,0,0" VerticalAlignment="Top" MouseDown="Options_Launch_Button_MouseDown" FontSize="16" Foreground="White" Cursor="Hand">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="2"/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="Instructions_Button" Content="Instructions" HorizontalAlignment="Left" Margin="152,64,0,0" VerticalAlignment="Top" MouseDown="Instructions_Button_MouseDown" FontSize="16" Foreground="White" Cursor="Hand">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="2"/>
+            </Label.Effect>
+        </Label>
+
+        <!-- Log -->
+        <Label x:Name="Log" Content="Log" Foreground="White" FontSize="18.667" Margin="775,105,153,406"/>
+        <Rectangle x:Name="Log_BG_Box" Fill="#FF232323" Margin="670,144,50,50"/>
+        <TextBlock x:Name="Log_Text" HorizontalAlignment="Left" Margin="670,144,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="&#10;Testing" VerticalAlignment="Top" Height="356" Width="250" Foreground="White"/>
+		
+        <!-- Options/Launch -->
+        <CheckBox x:Name="Unattended_Checkbox" Content="Unattended" Margin="60,120,827,415" Foreground="White" Background="#FFB82929" BorderBrush="White" Cursor="Hand" ToolTip="Activates Unattended mode." RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+
+        <CheckBox x:Name="No_Texture_Stream" Content="No Texture Stream" Margin="70,166,776,369" Foreground="White" Background="#FFB82929" BorderBrush="White" Cursor="Hand" ToolTip="Activates No Texture Stream." RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+		
+        <CheckBox x:Name="Use_All_Available_Cores" Content="Use All Available Cores" Margin="75,211,749,324" Foreground="White" Background="#FFB82929" BorderBrush="White" Cursor="Hand" ToolTip="Enables use of all cores." RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+		
+        <CheckBox x:Name="Use_Modded_XML" Content="Use Modded XML Files" Margin="74,256,753,279" Foreground="White" Background="#FFB82929" BorderBrush="White" Cursor="Hand" ToolTip="Enables use of modded XML files." RenderTransformOrigin="0.5,0.5">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+
     </Grid>
 </Window>
